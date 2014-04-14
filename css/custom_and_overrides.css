@@ -1,0 +1,78 @@
+/*------------------------------ FONTS ------------------------------*/
+@font-face {
+  font-family: 'forqueregular';
+  src: url("../fonts/Forque-webfont.eot");
+  src: url("../fonts/Forque-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Forque-webfont.woff") format("woff"), url("../fonts/Forque-webfont.ttf") format("truetype"), url("../fonts/Forque-webfont.svg#forqueregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aaarghnormal';
+  src: url("../fonts/Aaargh-webfont.eot");
+  src: url("../fonts/Aaargh-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Aaargh-webfont.woff") format("woff"), url("../fonts/Aaargh-webfont.ttf") format("truetype"), url("../fonts/Aaargh-webfont.svg#aaarghnormal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.latof {
+  font-family: 'Lato', sans-serif; }
+
+.argf {
+  font-family: 'aaarghnormal', sans-serif; }
+
+.forquef {
+  font-family: 'forqueregular', sans-serif; }
+
+.opensansf {
+  font-family: 'Open Sans', sans-serif; }
+
+/*------------------------------ GENERAL ------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, html {
+  height: 100%; }
+
+header {
+  background: url("../img/desk.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 60%;
+  padding: 11em 0 9em 0; }
+
+h1 {
+  font-weight: 800;
+  font-size: 50px;
+  color: #e1eaec;
+  line-height: 46px;
+  margin: 0 0 10px 0;
+  text-align: center; }
+
+h2 {
+  font-weight: 400;
+  font-size: 23px;
+  color: #e1eaec;
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-style: italic; }
+
+/*------------------------------ NAVBAR ------------------------------*/
+.sticky nav {
+  text-align: center;
+  position: relative;
+  bottom: 45px; }
+
+.top-bar-section {
+  display: inline-block; }
+
+.top-bar {
+  background: rgba(0, 0, 0, 0.2); }
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: none; }
+
+.top-bar-section ul {
+  background: none; }
