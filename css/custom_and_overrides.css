@@ -41,21 +41,19 @@ body, html {
   -o-background-size: cover;
   background-size: cover;
   height: 60%;
-  padding: 173px 0 0px; }
+  padding-top: 100px; }
 
 h1 {
   font-weight: 800;
   font-size: 50px;
   color: #e1eaec;
   line-height: 46px;
-  margin: 0 0 10px;
   text-align: center; }
 
 h2 {
   font-weight: 400;
   font-size: 23px;
   color: #e1eaec;
-  margin: 0 0 10px;
   text-align: center;
   font-style: italic; }
 
@@ -76,3 +74,8 @@ h2 {
 
 .top-bar-section ul {
   background: none; }
+
+.sticky.fixed .top-bar {
+  bottom: auto; }
+
+/*------------------------------ MEDIA QUERIES ------------------------------*/
